@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Html events</h1>
+    <h2>the onclick functon </h2>
+    <p>click the button here </p>
+    <button type="button" id="demo" onclick="showdate()">the time is? </button>
+
+    <script>
+        function showdate(){
+        let v=document.getElementById("demo")
+        v.innerHTML=new Date;
+        }
+    </script>
+</body>
+</html>
