@@ -9,7 +9,7 @@ br.shift()
 // unshift method
 br.unshift('themanjeetkr');
 
-br.slice(1,2)
-console.log(br)
+ let l=br.slice(1,2)
+console.log(l)
 
 
